@@ -36,9 +36,9 @@ body {
 }
 .navbar ul li{
     font-family: century;
-    font-size: 1.1rem;
+    font-size: 1em;
     font-weight: bold;
-    background-color: rgba(59, 59, 59, 0.295);
+    background-color: rgba(31, 31, 31, 0.5);
     padding: 20px 20px;
 }
 .navbar ul li a{
@@ -74,7 +74,7 @@ body {
     align-items: center;
     position:absolute;
     top: 30%;
-    right: 15%;
+
 }
 .headings{
     color: white;
@@ -88,8 +88,8 @@ body {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    background-color: rgba(173, 255, 241, 0.253);
-
+    background-color: rgba(31, 31, 31, 0.5);
+/* image size for About me image */
 }
 #pic{
     display: flex;
@@ -97,12 +97,18 @@ body {
 #pic img{
     width: 320px;
     height: 350px;
+    border-radius: 5px;
+    border: 7px solid white;
 }
 #intro{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    background-color:rgba(173, 255, 241, 0.253);
+    font-family: century;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 2em ;
+    color: white;
 }
 #intro h2{
     font-size: 2em;
@@ -116,12 +122,13 @@ body {
     text-align: justify;
     padding: 20px;
     margin-bottom: 50px;
-    background-color: rgba(173, 255, 241, 0.253);
+    background-color: rgba(31, 31, 31, 0.5);
 }
 .gallery{
     display: flex;
     justify-content: space-around;
 }
+/* Image size for Programming languages images */
 .gallery img{
     width: 80px;
     height: 80px;
@@ -134,11 +141,13 @@ body {
     text-align: justify;
     padding: 20px;
     margin-bottom: 50px;
-    background-color: rgba(173, 255, 241, 0.253);
+    background-color: rgba(31, 31, 31, 0.5);
 
 }
+
+/* Button for GitHub */
 .button1{
-    border: solid;
+    border:2px solid  ;
     background-color: rgba(173, 255, 241, 0.253);
     color: white;
     padding: 15px 32px;
@@ -149,14 +158,16 @@ body {
     font-weight: bold;
     margin: 4px 2px;
 }
+/* Hover function for GitHub button */
 .button1:hover{
     background-color: white;
     color:black;
     box-shadow: 0 0 10px white;
 
 }
+/* Button for LinkedIn */
 .button2{
-    border: solid;
+    border:2px solid;
     background-color: rgba(173, 255, 241, 0.253);
     color: white;
     padding: 15px 32px;
@@ -167,13 +178,15 @@ body {
     font-weight: bold;
     margin: 4px 2px;
 }
+/* Hover function for LinkedIn button */
 .button2:hover{
     background-color: white;
     color:black;
     box-shadow: 0 0 10px white;
 }
+/* Button for Email */
 .button3{
-    border: solid;
+    border:2px solid;
     background-color: rgba(173, 255, 241, 0.253);
     color: white;
     padding: 15px 32px;
@@ -184,11 +197,17 @@ body {
     font-weight: bold;
     margin: 4px 2px;
 }
+/* Hover function for Email button */
 .button3:hover{
     background-color: white;
     color:black;
     box-shadow: 0 0 10px white;
 }
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
