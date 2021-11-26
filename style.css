@@ -1,6 +1,10 @@
 *{box-sizing:border-box;
     margin:0em;
-    padding;0em
+    padding:0em;
+
+}
+html{
+    scroll-behavior:smooth;
 }
 body {
     content: "";
@@ -8,7 +12,7 @@ body {
     top: 0;
     right: 0;
     background-image:url("https://wallpaperaccess.com/full/5651980.jpg");
-    height: 900px;
+    height: 800px;
     width: 100%;
 }
 /* Navigation toolbar */
@@ -46,16 +50,23 @@ body {
     color:black;
     box-shadow: 0 0 10px white;
 }
-/* Homa page */
+/* Home page */
 #home{
     display: flex;
     flex-direction: column;
-    height: 840px;
+    height: 800px;
     justify-content: center;
     align-items: center;
-
 }
 #home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+.main{
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -63,3 +74,102 @@ body {
     top: 30%;
     right: 10%;
 }
+.headings{
+    color: white;
+    font-size: 3em;
+    font-family: century;
+}
+/* About me section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(173, 255, 241, 0.253);
+
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 320px;
+    height: 350px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color:rgba(173, 255, 241, 0.253);
+}
+#intro h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+/* Portfolio Section */
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(173, 255, 241, 0.253);
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+/* Contact section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(173, 255, 241, 0.253);
+
+}
+.button1{
+    border: solid;
+    background-color: rgba(173, 255, 241, 0.253);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+}
+.button1:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+
+}
+.button2{
+    border: solid;
+    background-color: rgba(173, 255, 241, 0.253);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+}
+.button2:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+}
+
+
+
