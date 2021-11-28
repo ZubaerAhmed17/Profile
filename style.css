@@ -113,99 +113,66 @@ body {
     font-size: 2em;
     margin-bottom: 1em;
 }
+h3{
+    padding-bottom: 1em;
+}
 /* Portfolio Section */
 
-#portfolio{
+#experience{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 20px;
+    padding: 80px;
     margin-bottom: 500px;
     background-color: rgba(31, 31, 31, 0.5);
 }
-.gallery{
+.exp{
     display: flex;
     justify-content: space-around;
 }
 /* Image size for Programming languages images */
-.gallery img{
+.exp img{
     width: 80px;
     height: 80px;
     margin: 10px;
+}
+/* portfolio section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 475px;
+    margin-bottom: 800px;
+    background-color: rgba(31, 31, 31, 0.5);
+
 }
 /* Contact section */
 #contact{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background-color: rgba(31, 31, 31, 0.5);
 
-}
-
-/* Button for GitHub */
-.button1{
-    border:2px solid  ;
-    background-color: rgba(173, 255, 241, 0.253);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 4px 2px;
-}
-/* Hover function for GitHub button */
-.button1:hover{
-    background-color: white;
-    color:black;
-    box-shadow: 0 0 10px white;
-
-}
-/* Button for LinkedIn */
-.button2{
-    border:2px solid;
-    background-color: rgba(173, 255, 241, 0.253);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 4px 2px;
-}
-/* Hover function for LinkedIn button */
-.button2:hover{
-    background-color: white;
-    color:black;
-    box-shadow: 0 0 10px white;
-}
-/* Button for Email */
-.button3{
-    border:2px solid;
-    background-color: rgba(173, 255, 241, 0.253);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 4px 2px;
-}
-/* Hover function for Email button */
-.button3:hover{
-    background-color: white;
-    color:black;
-    box-shadow: 0 0 10px white;
+/* Contact buttons */
 }
 .button{
     display: flex;
     justify-content: space-around;
+/* Button sizes */
 }
+#button img{
+    width: 120px;
+    height: 120px;
+    padding: 1rem;
+    margin-left: 15rem;
+/* Hover effect for buttons */
+}
+#button img:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
 
-
+}
 
 
